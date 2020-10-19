@@ -1,4 +1,3 @@
-# dual.py
 Dual task:
 5.00y1 + 3.00y2 + 8.00y3 ->  MIN
 -2.00y1 + -y2 <= -5.0
