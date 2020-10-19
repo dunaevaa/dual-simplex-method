@@ -1,7 +1,7 @@
 import numpy as np
 
-MAX_MODE = 'MAX'  # режим максимизации
-MIN_MODE = 'MIN'  # режим минимизации
+MAX_MODE = 'MAX'  
+MIN_MODE = 'MIN'  
 
 
 class SimplexMethod:
@@ -107,7 +107,7 @@ class SimplexMethod:
         for i in range(self.restrictions_count):
             y[self.basis[i]] = self.table[i][-1]
 
-        return y  # возвращаем полученное решение
+        return y  
 
     # решение
     def solve(self):
